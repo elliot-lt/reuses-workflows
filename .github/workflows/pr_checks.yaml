@@ -1,0 +1,9 @@
+name: PR checks
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  pr_checks:
+    uses: elliot-lt/reuisable-workflows/.github/workflows/check_bumpversion_config.yml@main
