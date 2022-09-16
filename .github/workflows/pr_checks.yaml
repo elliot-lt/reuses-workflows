@@ -6,4 +6,4 @@ on:
 
 jobs:
   pr_checks:
-    uses: elliot-lt/reuisable-workflows/.github/workflows/check_bumpversion_config.yml@main
+    uses: elliot-lt/reuisable-workflows/.github/workflows/reuse-me.yaml@main
